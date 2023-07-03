@@ -1,0 +1,94 @@
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#contenitore{
+    margin: auto;
+    width: 1000px;
+}
+
+.rew{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+    width: 1200px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    display: block;
+}
+
+#lim{
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+
+#titolo{
+    font-size: 270%;
+    color: rgb(3, 165, 3);    
+    display: block;
+    text-align: center;
+}
+
+#nav{
+    height: 40px;
+    width: 1000px;
+    background-color: rgb(1, 177, 1);
+    margin: auto    ;
+    display: inline-block
+    
+
+}
+
+.button1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 380px;
+}
+
+.MDG{
+    margin-top: 40px;
+    display: inline;
+}
+
+.batteria.media{
+    width: 300px;
+    height: 25px;
+    background-color: #f5b453;
+    border-radius: 5px;
+}
+
+.batteria.scarica{
+    width: 120px;
+    height: 25px;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.batteria.carica{
+    width: 500px;
+    height: 25px;
+    background-color: #00ff00;
+    border-radius: 5px;
+}
+
+section{
+    color: white;
+    margin-top: 20px;
+}
+
+section > h2{
+    display: inline;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
